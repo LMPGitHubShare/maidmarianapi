@@ -1,0 +1,8 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.cfg
+maidmarianapi.egg-info/PKG-INFO
+maidmarianapi.egg-info/SOURCES.txt
+maidmarianapi.egg-info/dependency_links.txt
+maidmarianapi.egg-info/top_level.txt

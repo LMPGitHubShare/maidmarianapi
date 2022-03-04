@@ -17,3 +17,6 @@ def sell(name, stockid, password, apikey):
     
 def stocksummary(ticker, apikey):
     return json.loads(urllib.request.urlopen(enpoints + "/Api/GetStockSummary?symbole=" + ticker + "&apiKey=" + apikey, data={}).read())
+
+def snp500summary(apikey):
+    return json.loads(urllib.request.urlopen(enpoints + "/Api/GetSNP500Summary?apiKey=" + apikey, data={}).read())
